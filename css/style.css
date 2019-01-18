@@ -406,3 +406,7 @@ background-image: url("../img/bg-stats.jpg");
     font-weight: 300;
     margin-top:0;
 }
+
+#stats .content-box h3{
+    color: #fff;
+}
