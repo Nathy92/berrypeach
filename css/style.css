@@ -314,6 +314,11 @@ h4.team-member-designation{
     color: #34c6d3;
 }
 
+.icon-white i{
+    color: #fff;
+
+}
+
 /**********************************************
                     PRICING
 ***********************************************/
@@ -409,4 +414,55 @@ background-image: url("../img/bg-stats.jpg");
 
 #stats .content-box h3{
     color: #fff;
+}
+
+/**********************************************
+                    CONTACT
+***********************************************/
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0,0.1);
+
+
+}
+
+#contact-left h3, #contact-right h3{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p{
+    color:#fff;
+    margin-bottom: 30px;
+
+}
+
+#contact-info{
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+Address{
+    color: #fff;
+
+}
+
+Address strong , #phone-fax-email strong{
+    letter-spacing:1px;
+}
+
+form .form-control {
+    background:transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+    
 }
