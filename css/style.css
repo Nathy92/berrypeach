@@ -14,9 +14,10 @@
 
 /* General CSS */
 
-html, body{
-    height:100%;
-    
+html,
+body {
+    height: 100%;
+
 }
 
 
@@ -24,13 +25,13 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-p{
-    color:#64707b;
-    font-size:16px;
-    font-weight:300;
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-h3{
+h3 {
     color: #41464b;
     text-transform: uppercase;
 }
@@ -74,7 +75,7 @@ h3{
 /**********************************************
                      PARALLAX (Generic)
 ***********************************************/
-.bg-parallax{
+.bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,122 +122,126 @@ h3{
 /**********************************************
                      ANIMATION (Generic)
 ***********************************************/
-#home-cover,#home-heading,#home-btn{
+#home-cover,
+#home-heading,
+#home-btn {
     animation-duration: .5s;
 }
-#home-cover{
-    animation-delay:.1s;
-   
+
+#home-cover {
+    animation-delay: .1s;
+
 }
 
-#home-heading{
-    animation-delay:.5s;
-    
+#home-heading {
+    animation-delay: .5s;
+
 }
 
-#home-btn{
-    animation-delay:.1s;
-   
+#home-btn {
+    animation-delay: .1s;
+
 }
 
 /**********************************************
                      CONTENT (Generic)
 ***********************************************/
-.content-box{
-    padding: 60px 0 60px 0 ;
+.content-box {
+    padding: 60px 0 60px 0;
 }
 
-.content-title h3{
-    font-size:30px;
-    font-weight:700;
-    text-align:center;
-    margin:0 0 30px 0;
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
 }
 
-.content-title-underline{
-    width:30px;
-    height:3px;
-    background-color:#34c6d3;
-    margin: 0 auto 30px auto; /*Center align div*/
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+    /*Center align div*/
 
 }
 
 /**********************************************
                      SERVICE (Generic)
 ***********************************************/
-.service-item{
+.service-item {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.service-item-icon i{
-    color:#34c6d3;
-    float:left;
-    padding:15px;
+.service-item-icon i {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
     margin-right: 25px;
-    width:75px;
-    height:75px;
-    text-align:center;
+    width: 75px;
+    height: 75px;
+    text-align: center;
 }
 
-.service-item:hover .service-item-icon i{
-    color:#fff;
-    background-color:#34c6d3;
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #34c6d3;
 }
 
-.service-item-title h3{
-    font-size:20px;
+.service-item-title h3 {
+    font-size: 20px;
     font-weight: 400;
-    margin:0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
-.service-item-desc p{
-    margin:0;
+.service-item-desc p {
+    margin: 0;
     padding-left: 85px;
 
 }
 
 
-#about-content-box{
-    float:left;
+#about-content-box {
+    float: left;
     height: 700px;
 }
 
-#about-content-box-outer{
+#about-content-box-outer {
     width: 100%;
-    height:100%;
-    display:table;
+    height: 100%;
+    display: table;
 }
 
-#about-content-box-inner{
-    display:table-cell;
+#about-content-box-inner {
+    display: table-cell;
     vertical-align: middle;
 }
 
-#about .content-title h3{
-    text-align:left;
+#about .content-title h3 {
+    text-align: left;
 
 }
 
-#about .content-title .content-title-underline{
-    margin:0 0 30px 0;   
+#about .content-title .content-title-underline {
+    margin: 0 0 30px 0;
 }
 
-#about-desc p{
+#about-desc p {
     margin-bottom: 30px;
 }
 
 /******************************************************
                ABOUT
 ******************************************************/
-#about-bg-diagonal{
-    width:60%;
-    height:700px;
-    float:right;
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
     background-image: url(../img/about3.jpg);
-    border-left:200px solid #fff;
-    border-top:700px solid transparent;
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
 
 }
 
@@ -244,45 +249,49 @@ h3{
                      WORK
 ***********************************************/
 /*Fix spaces on images vid 48 */
-.row.no-gutters[class*=col-]{
-    padding-left:0;
-    padding-right:0;
+.row.no-gutters[class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
 }
-.img-wrapper{
+
+.img-wrapper {
     overflow: hidden;
 }
-.img-wrapper img:hover{
+
+.img-wrapper img:hover {
     transform: scale(1.5);
     cursor: zoom-in;
 }
-.img-wrapper{
+
+.img-wrapper {
     transition: transform .5s ease;
 }
 
 /**********************************************
                      TEAM
 ***********************************************/
-.team-member{
-    margin:0 15px;
+.team-member {
+    margin: 0 15px;
 }
 
-.team-member-info{
+.team-member-info {
     padding: 10px 0 30px 0;
 }
-h4.team-member-name{
+
+h4.team-member-name {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 20px;
 }
 
-h4.team-member-designation{
-     color:#34c6d3;
-     font-size:15px;
-     font: weight 700;
-     font-style: italic;
-     letter-spacing: 1px;
-     margin-top: 5px;
+h4.team-member-designation {
+    color: #34c6d3;
+    font-size: 15px;
+    font: weight 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
 
 
 }
@@ -290,31 +299,32 @@ h4.team-member-designation{
 /**********************************************
                      SOCIAL ICONS
 ***********************************************/
-.social-list{
+.social-list {
     padding-left: 0;
 
 }
 
-.social-list li{
+.social-list li {
     list-style: none;
     display: inline-block;
     width: 32px;
     height: 30px;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.social-icon i{
+
+.social-icon i {
     font-size: 17px;
 }
 
-.icon-gray{
+.icon-gray {
     color: #64707b;
 }
 
-.social-icon i:hover{
+.social-icon i:hover {
     color: #34c6d3;
 }
 
-.icon-white i{
+.icon-white i {
     color: #fff;
 
 }
@@ -323,96 +333,102 @@ h4.team-member-designation{
                     PRICING
 ***********************************************/
 .pricing-box {
-    border:3px solid #34c6d3;
+    border: 3px solid #34c6d3;
     padding: 50px 0;
     margin: 40px;
 
 
 }
 
-h4.pricing-title{
+h4.pricing-title {
     background-color: #34c6d3;
     color: #fff;
-    display:inline-block;
-    padding:7px 15px;
-    font-size:14px;
-    font-weight:700;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 30px 0;
 }
 
-h3.pricing-value{
-    font-size:60px;
-    font-weight:700;
+h3.pricing-value {
+    font-size: 60px;
+    font-weight: 700;
 }
- h3.pricing-value sup{
-     font-size:28px;
-     font-weight:normal;
-     vertical-align: super;
- }
-ul.pricing-box-spec{
+
+h3.pricing-value sup {
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+ul.pricing-box-spec {
     list-style: none;
-    padding-left:0;
-    margin:20px 0 60px 0;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
 
 }
-ul.pricing-box-spec li p{
-    font-weight:400;
+
+ul.pricing-box-spec li p {
+    font-weight: 400;
     text-transform: uppercase;
 }
-.pricing-box-lg{
+
+.pricing-box-lg {
     padding: 90px 0;
     margin: 0;
-    background-color:#34c6d3;
+    background-color: #34c6d3;
 
 }
-.pricing-box-lg h4.pricing-title{
 
-    color:#34c6d3;
+.pricing-box-lg h4.pricing-title {
+
+    color: #34c6d3;
     background-color: #fff;
 }
-.pricing-box-lg ul.pricing-box-spec li p{
-    color:#fff;
+
+.pricing-box-lg ul.pricing-box-spec li p {
+    color: #fff;
 }
 
 /**********************************************
                     STATS
 ***********************************************/
-#stats-cover{
+#stats-cover {
 
-background-image: url("../img/bg-stats.jpg");
+    background-image: url("../img/bg-stats.jpg");
 
 }
 
-#stats .content-box{
-    background-color: rgba(0,0, 0, .8);
+#stats .content-box {
+    background-color: rgba(0, 0, 0, .8);
 }
 
-.stats-item{
+.stats-item {
     padding: 100px 0;
 }
 
-.stats-item i{
-    color:#34c6d3;
+.stats-item i {
+    color: #34c6d3;
 }
 
-.stats-item h2{
-    color:#fff;
-    font-size:35px;
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
     font-weight: 700;
-    margin-top:15px;
+    margin-top: 15px;
     margin-bottom: 1px;
 
 }
 
-.stats-item p{
-    color:#fff;
+.stats-item p {
+    color: #fff;
     text-transform: uppercase;
     font-weight: 300;
-    margin-top:0;
+    margin-top: 0;
 }
 
-#stats .content-box h3{
+#stats .content-box h3 {
     color: #fff;
 }
 
@@ -422,41 +438,43 @@ background-image: url("../img/bg-stats.jpg");
 footer {
     background-color: #41464b;
     padding-top: 30px;
-    border-top: 5px solid rgba(0,0,0,0.1);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
 
 
 }
 
-#contact-left h3, #contact-right h3{
+#contact-left h3,
+#contact-right h3 {
     color: #fff;
     font-size: 27px;
     font-weight: 700;
 }
 
-#contact-left p{
-    color:#fff;
+#contact-left p {
+    color: #fff;
     margin-bottom: 30px;
 
 }
 
-#contact-info{
+#contact-info {
     background-image: url("../img/world-map.png");
     background-repeat: no-repeat;
     background-size: contain;
 
 }
 
-Address{
+Address {
     color: #fff;
 
 }
 
-Address strong , #phone-fax-email strong{
-    letter-spacing:1px;
+Address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
 }
 
 form .form-control {
-    background:transparent;
+    background: transparent;
     border-radius: 0;
     border-color: #fff;
     font-size: 17px;
@@ -464,5 +482,5 @@ form .form-control {
     padding: 8px 16px;
     margin-bottom: 20px;
     color: #fff;
-    
+
 }
