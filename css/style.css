@@ -484,3 +484,12 @@ form .form-control {
     color: #fff;
 
 }
+
+
+/**********************************************
+                    FOOTER
+***********************************************/
+#footer-bottom{
+    background-color: rgba(0,0,0,0.1);
+    padding: 30px 0;
+}
