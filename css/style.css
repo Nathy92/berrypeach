@@ -540,6 +540,7 @@ form .form-control {
 ====================================================*/
 .navbar{
     padding:20px 0;
+    transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav{
@@ -589,5 +590,8 @@ form .form-control {
 }
 .vesco-top-nav ul.navbar-nav > li.active > a{
     color: #34c6d3;
+}
+.navbar-brand{
+    color: #fff;
 }
 
